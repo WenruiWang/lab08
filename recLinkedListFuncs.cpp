@@ -11,9 +11,10 @@ int recursiveSum(Node* head) {
    
       if(p->next==NULL){
              return sum ;}
- else{	p=p->next;
+ else{
 		sum+=p->data;
-      return	recursiveSum(p->next);
+               
+		return	recursiveSum(p->next);
    } }
 
 //head: ptr to a Node* which is the head of a linked list

@@ -19,11 +19,11 @@ string s3="";
 		  s3+=tolower( s1[i]);
 	 }
 	  }     
- sort(s3.begin(),s3.end()};
+ sort(s3.begin(),s3.end());
 string s4="";
  for(int j=0;j<s2.length();j++){
 if(isalpha(s2[j])){
-		s4+=tolower( s2[i]);
+		s4+=tolower( s2[j]);
 	}}
 	sort(s4.begin(),s4.end());
 
@@ -41,7 +41,7 @@ bool isPalindrome(const string s1){
       return true;}
 
 
-  	      if(tolower(s1[0])]!=tolower(s1[s1.length()-1]){
+  	      if(tolower(s1[0])!=tolower(s1[s1.length()-1])){
 		      return false;}
              else	{ 
 	   return  isPalindrome(s1.substr(1,s1.length()-2));
